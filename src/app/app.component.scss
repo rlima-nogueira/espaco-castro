@@ -62,3 +62,27 @@ article {
   height: 50vh;
 }
 
+
+@media screen and (max-width: 480px) {
+  /* Estilos para telas menores que 480 pixels de largura */
+  header {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .info-contato {
+      .descritivos {
+        span {
+          font-size: 0.7srem;
+          fa-icon {
+            color: #028eb9;
+            font-size: 0.5rem;
+          }
+        }
+      }
+
+
+    }
+  }
+}
